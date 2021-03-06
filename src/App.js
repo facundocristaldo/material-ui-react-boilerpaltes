@@ -4,6 +4,8 @@ import './App.css';
 import Buttons from './components/Buttons'
 import Checkboxes from './components/Checkboxes';
 import Inputs from './components/Inputs';
+import StyledButtons from './components/StyledButtons';
+
 
 function App() {
   const style = {
@@ -15,7 +17,7 @@ function App() {
         <Buttons />
         <Checkboxes />
         <Inputs />
-        <img src={logo} className="App-logo" alt="logo" />
+        <StyledButtons />
       </header>
     </div>
   );
