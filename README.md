@@ -14,16 +14,16 @@ Runs the app in the development mode.
 
 ### packages
 
-npm install @material-ui/core
+### `npm install @material-ui/core`
 
 ### Roboto Font:
 
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+`<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />`
 
 ### Font Icons
 
-<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+`<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />`
 
 ### SVG Icons
 
-npm install @material-ui/icons
+### `npm install @material-ui/icons`
