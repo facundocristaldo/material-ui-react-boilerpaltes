@@ -19,6 +19,8 @@ Runs the app in the development mode.
 ### Roboto Font:
 
 `<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />`
+or 
+`npm add fontsource-roboto`
 
 ### Font Icons
 
