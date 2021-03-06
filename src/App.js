@@ -8,6 +8,7 @@ import { ThemeProvider, createMuiTheme, Typography, Container } from '@material-
 import { blue, orange } from '@material-ui/core/colors'
 import 'fontsource-roboto';
 import ContainersAndGrids from './components/ContainersAndGrids';
+import NavBar from './components/NavBar';
 
 const theme = createMuiTheme({
   typography: {
@@ -32,10 +33,11 @@ const theme = createMuiTheme({
 function App() {
   return (
     <ThemeProvider theme={theme}>
-      <ContainersAndGrids />
-
+      <NavBar />
       <div className="App">
         <header className="App-header">
+          <ContainersAndGrids />
+
           <h1>Welcome to MUI</h1>
           <Typography variant="h1">
             Welcome to MUI
