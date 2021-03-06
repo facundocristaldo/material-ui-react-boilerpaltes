@@ -4,9 +4,10 @@ import Buttons from './components/Buttons'
 import Checkboxes from './components/Checkboxes';
 import Inputs from './components/Inputs';
 import StyledButtons from './components/StyledButtons';
-import { ThemeProvider, createMuiTheme, Typography } from '@material-ui/core';
+import { ThemeProvider, createMuiTheme, Typography, Container } from '@material-ui/core';
 import { blue, orange } from '@material-ui/core/colors'
 import 'fontsource-roboto';
+import ContainersAndGrids from './components/ContainersAndGrids';
 
 const theme = createMuiTheme({
   typography: {
@@ -31,6 +32,7 @@ const theme = createMuiTheme({
 function App() {
   return (
     <ThemeProvider theme={theme}>
+      <ContainersAndGrids />
 
       <div className="App">
         <header className="App-header">
@@ -51,6 +53,7 @@ function App() {
           <StyledButtons />
         </header>
       </div>
+
     </ThemeProvider>
   );
 }
