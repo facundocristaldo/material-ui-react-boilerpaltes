@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 //MaterialUI Comopnents
 import Buttons from './components/Buttons'
+import Checkboxes from './components/Checkboxes';
 
 function App() {
   const style = {
@@ -11,6 +12,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <Buttons />
+        <Checkboxes />
         <img src={logo} className="App-logo" alt="logo" />
       </header>
     </div>
