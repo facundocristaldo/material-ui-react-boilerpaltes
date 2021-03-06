@@ -3,6 +3,7 @@ import './App.css';
 //MaterialUI Comopnents
 import Buttons from './components/Buttons'
 import Checkboxes from './components/Checkboxes';
+import Inputs from './components/Inputs';
 
 function App() {
   const style = {
@@ -13,6 +14,7 @@ function App() {
       <header className="App-header">
         <Buttons />
         <Checkboxes />
+        <Inputs />
         <img src={logo} className="App-logo" alt="logo" />
       </header>
     </div>
